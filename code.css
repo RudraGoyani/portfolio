@@ -1,0 +1,35 @@
+:root {
+    --bg-color: #f7f3e8; /* A clean, textured off-white */
+    --text-primary: #1a1a1a;
+    --accent: #5e6d8c; /* A soft, sophisticated cool gray/blue */
+    --card-bg: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: url('data:image/png;base64,...(subtle texture data)...'); /* Optional fine texture */
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif; /* Optional serif for high-end look */
+    font-size: 3rem;
+    color: var(--text-primary);
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid #e0e0e0; /* Thin, clean border */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Very soft shadow */
+}
+
+.skill-tag {
+    background: #e0e7ff; /* soft accent background */
+    color: var(--accent);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
